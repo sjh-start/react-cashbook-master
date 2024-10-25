@@ -1,0 +1,136 @@
+{
+  "pay": [
+    {
+      "type": "餐饮",
+      "list": [
+        {
+          "icon": "icon-mianguan",
+          "label": "餐费",
+          "value": "food"
+        },
+        {
+          "icon": "icon-jiweijiu",
+          "label": "酒水饮料",
+          "value": "drinks"
+        },
+        {
+          "icon": "icon-tianpin",
+          "label": "甜品零食",
+          "value": "dessert"
+        }
+      ]
+    },
+    {
+      "type": "出行交通",
+      "list": [
+        {
+          "icon": "icon-deshi",
+          "label": "打车租车",
+          "value": "taxi"
+        },
+        {
+          "icon": "icon-feiji",
+          "label": "旅行票费",
+          "value": "longdistance"
+        }
+      ]
+    },
+    {
+      "type": "休闲娱乐",
+      "list": [
+        {
+          "icon": "icon-jianshen",
+          "label": "运动健身",
+          "value": "bodybuilding"
+        },
+        {
+          "icon": "icon-shoubing",
+          "label": "休闲玩乐",
+          "value": "game"
+        },
+        {
+          "icon": "icon-dianying",
+          "label": "媒体影音",
+          "value": "audio"
+        },
+        {
+          "icon": "icon-lunchuan",
+          "label": "旅游度假",
+          "value": "travel"
+        }
+      ]
+    },
+    {
+      "type": "日常支出",
+      "list": [
+        {
+          "icon": "icon-lunchuan",
+          "label": "衣服裤子",
+          "value": "clothes"
+        },
+        {
+          "icon": "icon-xie",
+          "label": "鞋帽包包",
+          "value": "bag"
+        },
+        {
+          "icon": "icon-tushu",
+          "label": "知识学习",
+          "value": "book"
+        },
+        {
+          "icon": "icon-huiyi",
+          "label": "能力提升",
+          "value": "promote"
+        },
+        {
+          "icon": "icon-weixiu",
+          "label": "家装布置",
+          "value": "home"
+        }
+      ]
+    },
+    {
+      "type": "其他支出",
+      "list": [
+        {
+          "icon": "icon-zhanku",
+          "label": "社区缴费",
+          "value": "community"
+        }
+      ]
+    }
+  ],
+  "income": [
+    {
+      "type": "其他收入",
+      "list": [
+        {
+          "icon": "icon-jinbi",
+          "label": "薪水",
+          "value": "salary"
+        },
+        {
+          "icon": "icon-bangong",
+          "label": "加班",
+          "value": "overtimepay"
+        },
+        {
+          "icon": "icon-liwu",
+          "label": "奖金",
+          "value": "bonus"
+        },
+        {
+          "icon": "icon-qiandai",
+          "label": "理财收入",
+          "value": "financial"
+        },
+        {
+          "icon": "icon-zhanku",
+          "label": "礼金收入",
+          "value": "cashgift"
+        }
+      ]
+    }
+  ]
+}

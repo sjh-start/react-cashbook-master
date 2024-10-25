@@ -1,0 +1,12 @@
+.select-content{
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+  //padding-top: 10px;
+  .icon{
+    margin-left: 5px;
+    width: 16px;
+  }
+}

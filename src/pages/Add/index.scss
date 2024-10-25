@@ -1,0 +1,31 @@
+.add-content {
+  height: calc(100vh - 52px);
+  background-color: #e5f1ff;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.adm-modal-body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.adm-modal-body .adm-button {
+  background-color: #e5f1ff;
+  border: none;
+  font-size: 14px !important;
+
+  color: #6f9fc0;
+  height: 40px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adm-auto-center-content {
+  font-size: 16px !important;
+}
+

@@ -1,0 +1,67 @@
+.topCard-content {
+  height: 130px;
+
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .bg {
+    position: absolute;
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  .content {
+    position: absolute;
+    z-index: 2;
+    padding: 20px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .time {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        width: 15px;
+
+        margin-left: 5px;
+      }
+    }
+
+    .detail {
+      display: flex;
+
+      width: 100%;
+      justify-content: space-between;
+      span{
+max-width: 120px!important;
+        word-break:keep-all;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+      .item {
+
+        margin-right: 10px;
+        .text {
+          font-size: 13px;
+          width: auto;
+        }
+
+
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+

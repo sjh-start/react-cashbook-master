@@ -1,0 +1,30 @@
+.fixed{
+  border-top: 1px solid #f0f0f0;
+ .adm-tab-bar-item:first-child{
+
+   .icon{
+     height: 23px!important;
+     width: 23px!important;
+     margin-top: 6px!important;
+   }
+ } .adm-tab-bar-item:nth-child(2){
+
+   .icon{
+     height: 18px!important;
+     width: 18px!important;
+     //margin-top: 6px!important;
+   }
+ }
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+.adm-tab-bar-item-title{
+  font-size: 12px!important;
+  margin-top: 5px!important;
+}
+.adm-tab-bar-item {
+
+}

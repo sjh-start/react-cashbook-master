@@ -1,0 +1,24 @@
+#root{
+    background-color: #f3f3f3;
+    --adm-color-primary:#6f9fc4; /*//修改antd主题色*/
+    --background-color:#6f9fc4!important;
+}
+
+@font-face {
+    font-family: SanJiDianHeiJianTi;
+    src: url('@/assets/font/SanJiDianHeiJianTi-Zhong-2.ttf');
+}
+.adm-nav-bar{
+    /*background-color: #f3f3f3;*/
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    width:100px;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
